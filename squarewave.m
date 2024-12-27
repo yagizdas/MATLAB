@@ -22,7 +22,7 @@ ylabel("|A(f)|");
 
 %BGS Oluşturma Kısmı
 %b 5 ve 30'a ayarlanarak değiştirilebilir.
-b = 30; 
+b = 12; 
 hf = abs(f) <= b;
 
 subplot(2,2,3);
